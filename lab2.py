@@ -1,15 +1,19 @@
-name = "hassan algarmi"
+#name var
+name = "hassan"
+#nickname var
+nickname = "has"
 
-nickname = "hassan"
-
+#age var int
 age = 16
 
-used_python = 'true' 
+#python boolean
+used_python = True 
 
-hobbies = ["playing videogames", "fishing",]
+#hobbies list
+hobbies = ["playing videogame", "fishing", "learning how to code"]
 
-fav_things = {"movie": "minecraft movie", "food": "mayonaise"}
+#library 
+fav_things = {"food":"burgers", "movie":"minecraft movie", "video game":"minecraft"}
 
-##extra variables
-
-sig = "ma"
+#float
+weight_lbs = 155.4
