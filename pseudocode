@@ -1,0 +1,29 @@
+//starting questions
+Create var snooze time
+If user runs program
+Ask “Standard or military time?”
+Ask “What time is your alarm?”
+
+If user picked military
+Loop every minute
+Check military time if equal to alarm set then ring
+
+Else 
+Loop every minute
+Check standard time if equal to alarm set then ring
+
+//alarm rings
+if alarm rings 
+Ask “snooze”
+Ask “stop” 
+
+//snooze button
+If user picked snooze
+Set snooze time time+5 minutes
+
+If time = snooze time 
+Alarm ring 
+
+//end button
+If user picked stop 
+End alarm
