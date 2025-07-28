@@ -25,14 +25,14 @@ books = {
 }
 
 # Print list of all keys
-#print(books.keys())
-# Print list of all values
-#print(books.values())
+print(books.keys())
+# Print list of all thingx
+print(books.values())
 # Get a value for a specific key
-#print(books.get('JK Rowling'))
-# Remove the 3rd key-value pair (George Orwell)
+print(books.get('JK Rowling'))
+# Remove the 3rd keyalue pair
 books.pop('George Orwell')
-#print(books)
-# Remove the 1st key-value pair (Dr. Seuss)
+print(books)
+# Remove the 1st key-value pair
 del books['Dr. Seuss']
-#print(books)
+print(books)
